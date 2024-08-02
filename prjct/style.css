@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.color {
+    width: 590px;
+    height: 594px;
+    flex-shrink: 0;
+    background: rgba(84, 197, 173, 0.95);
+    filter: blur(217px);
+    position: absolute;
+    top: -30vh;
+
+}
+
+
+body {
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #02061A;
+    color: #c5c6c7;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: right;
+    padding: 20px 0;
+    margin-top: 80px;
+    margin-right: 150px;
+}
+
+.header h1 {
+    position: absolute;
+    left: 30vh;
+    color: white;
+}
+
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-top: 30px;
+    justify-content: right;
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav a {
+    color: #c5c6c7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    text-align: left;
+    color: #FFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.hero .btn {
+    color: white;
+    text-align: center;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 256px;
+    height: 95px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 3px solid #23263C;
+    background: #23263C;
+    margin-right: 20px;
+}
+
+.hero .btntwo {
+    color: #FFFFFF;
+    text-align: center;
+
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 256px;
+    height: 95px;
+    flex-shrink: 0;
+    background: #02061A;
+    border-radius: 50px;
+    border: 3px solid #23263C;
+}
+
+.hero img {
+    width: 467px;
+    height: 461px;
+    flex-shrink: 0;
+}
+
+h3 {
+    margin-left: 34vh;
+    color: white;
+
+}
+
+.featured {
+    border: 1px solid #5BD2BD;
+    background: #23263C;
+    width: 1065px;
+    height: 125px;
+    flex-shrink: 0;
+    margin-left: 34vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+
+}
+
+
+.featured-logos span {
+    color: #FFF;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    opacity: 0.5;
+    margin: auto 55px 25px 80px;
+}
+
+.nft-details {
+    text-align: center;
+}
+.custom {
+    color: white !important;
+    text-decoration-line: line-through;
+
+
+
+}
+
+.nft {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.nft img {
+    width: 428px;
+    height: 480px;
+    flex-shrink: 0;
+    margin-right: 50px;
+}
+
+
+.nft span {
+    color: #56CAB1;
+}
+
+.nft-info {
+    text-align: left;
+    max-width: 500px;
+}
+
+.nft-info h1 {
+    color: #FFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px;
+    margin: 0;
+    padding: 0;
+}
+
+.nft-info p {
+    color: #4C99BB;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    margin: 0;
+    padding: 0;
+}
+
+.nft-info .btn {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 126px;
+    height: 68px;
+    flex-shrink: 0;
+    background: #02061A;
+    border-radius: 16px;
+    border: 1px solid #56CAB1;
+}
+
+.nft-stats {
+    width: 521px;
+    height: 132px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: #3A5B6A;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.nft-stats span {
+    display: block;
+    margin-top: 5px;
+}
+
+.nft-mission {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: right;
+    margin-top: 50px;
+}
+
+.nft-mission h4 {
+    color: #FFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.flexbox {
+    margin-right: 20vh;
+}
+
+.nft-images {
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.nft-images h2 {
+    color: #56CAB1;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #02061A;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+
+.nft-images h4 {
+    color: #FFF;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 15px;
+    margin-top: -0.5px;
+
+}
+
+.nft-images span {
+    color: #23263C;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+.nft-images img {
+    width: 380px;
+    height: 323px;
+    flex-shrink: 0;
+
+}
+
+.munkeyinfo {
+    transform: rotate(-25.689deg);
+    border-radius: 10px;
+    background: rgba(137, 130, 130, 0.50);
+}
+
+.munkeyinfotwo {
+    z-index: 1;
+    border-radius: 10px;
+    background: rgba(137, 130, 130, 0.50);
+    margin-right: 100px;
+
+}
+
+.munkeyinfotwo button {
+    width: 147px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 2px solid #000;
+    background: #1F143B;
+    color: #52A7C6;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #02061A;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+.nft-mission .btn {
+    border-radius: 100px;
+    border: 3px solid rgba(84, 197, 173, 0.95);
+    background: #1F143B;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    width: 450px;
+    height: 96px;
+    flex-shrink: 0;
+    color: #56CAB1;
+
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.testimonials {
+    margin-top: 100px;
+}
+
+.container-two h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.section-title {
+    text-align: center;
+    margin: 20px 0;
+    color: #5BD2BF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+.testimonials {
+    margin-bottom: 200px;
+    margin-top: 200px;
+
+}
+
+.testimonial-cards h2 {
+    text-align: center;
+    margin: 10px 0 40px;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 345px;
+    height: 360px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #24293F;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.card img {
+    width: 155px;
+    height: 150px;
+    flex-shrink: 0;
+    mix-blend-mode: luminosity;
+    border-radius: 75px;
+    margin-top: -75px
+}
+
+.card h4 {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+
+}
+
+.card p {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.cta {
+    width: 1063px;
+    height: 378px;
+    border-radius: 20px;
+    background: linear-gradient(97deg, #1F143B -19.45%, #3C8273 103.56%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 30vh;
+    margin-bottom: 200px;
+}
+
+.cta h2 {
+    color: #FFF;
+    text-align: center;
+
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 100% */
+}
+
+.cta .btn {
+    width: 344px;
+    height: 85px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #000;
+}
+input::placeholder {
+
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+
+.cta .btn {
+    color: #FFF;
+    text-align: center;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.footer {
+
+    padding: 40px 0;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 18%;
+    margin: 10px 0;
+}
+
+.column h4 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.column ul li {
+    margin: 5px 0;
+}
+
+.column ul li a {
+    color: #c5c6c7;
+    text-decoration: none;
+}
+
+.newsletter form {
+    display: flex;
+}
+
+.newsletter input[type="email"] {
+    width: 253px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #3B7C70;
+
+
+}
+
+.newsletter button {
+    margin-left: -100px;
+    height: 60px;
+    border-radius: 50px;
+    background: #262E48;
+    width: 100px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+.columnone{
+    text-decoration-line: line-through;
+    margin-left: 50px;
+    margin-right: 200px;
+}
